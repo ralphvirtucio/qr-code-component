@@ -22,7 +22,7 @@ body {
   border-radius: 15px;
   overflow: hidden;
   padding: 1rem;
-  width: 20rem;
+  width: 18rem;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
 }
 .qr-code__image {
@@ -40,9 +40,10 @@ body {
 .qr-code__heading--main {
   font-size: 1.2rem;
   margin-bottom: 0.85rem;
+  color: hsl(218deg, 44%, 22%);
 }
 .qr-code__text {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: hsl(220deg, 15%, 55%);
 }
 

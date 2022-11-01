@@ -28,7 +28,7 @@ body {
   border-radius: 15px;
   overflow: hidden;
   padding: 1rem;
-  width: 20rem;
+  width: 18rem;
   box-shadow: 0 10px 40px rgba($color: #000000, $alpha: 0.15);
 
   &__image {
@@ -48,10 +48,11 @@ body {
   &__heading--main {
     font-size: 1.2rem;
     margin-bottom: 0.85rem;
+    color: $color-dark-blue;
   }
 
   &__text {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: $color-grayish-blue;
   }
 }
