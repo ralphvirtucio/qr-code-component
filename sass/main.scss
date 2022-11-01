@@ -25,33 +25,39 @@ body {
 
 .qr-code {
   background-color: $color-white;
-  border-radius: 8px;
+  border-radius: 15px;
   overflow: hidden;
   padding: 1rem;
-  width: 15rem;
-  text-align: center;
+  width: 20rem;
   box-shadow: 0 10px 40px rgba($color: #000000, $alpha: 0.15);
 
   &__image {
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 15px;
     margin-bottom: 1rem;
+  }
+
+  &__content {
+    width: 24ch;
+    text-align: center;
+    margin-inline: auto;
+    margin-block-start: 0;
+    margin-block-end: 0.75rem;
   }
 
   &__heading--main {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.85rem;
   }
 
   &__text {
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: $color-grayish-blue;
-    margin-bottom: 0.8rem;
   }
 }
 
 .entrance-animation {
-  animation: jackInTheBox 1s both;
+  animation: jackInTheBox 1.3s both;
 }
 @keyframes jackInTheBox {
   from {
